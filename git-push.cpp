@@ -1,4 +1,5 @@
 //Step-by-Step Guide to Initialize Git and Push C++ Program to Repository
+//use git status to check status
 
 #include <iostream>
 
@@ -35,8 +36,8 @@ int main() {
 
     // Step 6: Add a Remote Origin
     cout << "\nStep 6: Adding a Remote Origin...\n";
-    string remoteUrl = "<remote-url>"; // Replace with your actual remote repository URL
-    cout << "Remote URL set to: " << remoteUrl << "\n";
+     // Replace with your actual remote repository URL
+    cout << "Remote URL set to: \n";
     // Git Command: git remote add origin <remote-url>
 
     // Step 7: Push to Remote Repository
